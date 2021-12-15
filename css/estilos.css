@@ -1,0 +1,111 @@
+h1 {
+    color: #fff;
+    padding: 10px;
+}
+
+.contenedor {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#cabecero {
+    background-color: #3f51b5;
+    text-align: center;
+}
+
+#cliente {
+    font-size: 25px;
+}
+
+.elemento {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.elemento:last-child {
+    border-bottom: 0;
+}
+
+input[type="checkbox"] {
+    margin: 40px;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: 200;
+    color: #00204a;
+}
+
+form {
+    text-align: center;
+    margin-left: 60px;
+}
+
+#butuuton {
+    min-height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #3f51b5;
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 7px;
+    border-width: 0;
+}
+
+input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-weight: 200;
+    width: 40%;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #3f51b5;
+}
+
+ ::placeholder {
+    color: grey;
+    opacity: 1;
+}
+
+#footer {
+    background: url(../img/bg-04.png);
+    background-color: rgb(226, 146, 25);
+    background-size: 50px 50px;
+}
+
+.redes {
+    min-width: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes a {
+    text-decoration: none;
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #059b2a;
+    color: #0c0c0c;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+
+.redes a:hover {
+    transform: scale(1.2);
+}
